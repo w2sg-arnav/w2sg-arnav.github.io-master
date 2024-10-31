@@ -7,27 +7,78 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code ansd data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+# About Arnav Sonavane
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Welcome to my website! I’m Arnav Sonavane, a passionate computer science student at the University of Mumbai, currently on an exciting journey in artificial intelligence, machine learning, and medical imaging. Expected to graduate in 2027, I have been actively involved in impactful research, industry collaborations, and continuous learning to drive innovation in AI and technology.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## Academic Background
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+I am pursuing a Bachelor of Technology in Electronics and Computer Science at the University of Mumbai, where I have developed a strong foundation in core subjects including Computer Architecture, Networks, Advanced Distributed Systems, Deep Learning, Data Structures, and Algorithms. Alongside, I have honed my mathematical expertise in areas like Differential Equations, Probability, and Matrix Computation, all of which serve as the backbone for my technical pursuits.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## Research & Internships
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+My academic journey has been enriched with research internships at prestigious institutions:
+
+- **Harvard University**: I am working on LLM inference optimization under Professor Devashree Tripathy, contributing to VIDUR’s latency prediction and feature integration, including Chrome Tracing and synthetic data generation.
+- **JuliaHealth**: I am developing GPU-accelerated containers for medical imaging simulations and introduced the BlochKernel simulation method for multi-GPU support.
+- **National Institutes of Health (NIH)**: Focused on lung cancer biomarker identification, I achieved remarkable accuracy in identifying biomarkers, especially in plasma sample analysis.
+
+These experiences have expanded my skill set in tools like Docker, GitHub, PyTorch, TensorFlow, and more, which are critical to advancing AI-driven solutions in healthcare.
+
+## Projects
+
+### Computational Identification and Validation of Novel Biomarkers for Lung Cancer
+I led a comprehensive study on potential biomarkers for lung cancer using plasma and serum samples, achieving prediction accuracies up to 99%. This project not only involved biomarker analysis but also applied data integration techniques that are essential for translating bioinformatics research into real-world applications.
+
+### Synthia: Synthetic Data Generation with AI Workbench
+Using Nvidia’s AI Workbench and Phi-3 mini-4k-instruct model, I developed a customizable synthetic data generator to create datasets for diverse analytical needs, allowing users to specify and tokenize queries for synthetic data creation.
+
+## Awards & Honors
+
+I have been recognized for my contributions and achievements at several prestigious competitions, including:
+
+- **Winner** of the Live-AI Global Harvard-Duke Hackathon.
+- **2nd Place** at GES x UCLA Hackathon.
+- **Winner** of Stanford Biohacks Hackathon.
+- Recipient of **SOF International Olympiads** in Maths, Physics, and Science.
+
+These awards reflect my dedication to continuous learning and my competitive edge in the field of AI and machine learning.
+
+## Technical Skills
+
+### Programming Languages
+I am proficient in Python, JavaScript, Java, C++, and Go, with extensive experience in both machine learning and web development environments.
+
+### Machine Learning Libraries
+My toolkit includes PyTorch, TensorFlow, SciPy, NumPy, Sk-Learn, and Pandas, allowing me to develop, test, and optimize ML models efficiently.
+
+### Web & Database Development
+Experienced in frameworks like React.js, Node.js, and Flask/Django, I also work with databases such as SQLite, PostgreSQL, and MongoDB, ensuring seamless data management for my projects.
+
+### DevOps
+With a strong grasp of Docker, Docker-Compose, and Kubernetes, I aim to optimize the deployment and scaling of machine learning applications. I am also familiar with Git, GitHub Actions, and Shell Scripting, adding flexibility to my development workflow.
+
+## Publications
+
+### Integration of IoT and Quantum Computing
+Published a chapter titled *"Integration of IoT and Quantum Computing: Revolutionizing Manufacturing"* with IGI Global, delving into the intersections of emerging technologies and their potential impact on modern manufacturing.
+
+### HepaScope: Liver and Tumor Segmentation
+Accepted at the 13th International Conference on Bioinformatics and Computational Biology, my research on using UNet architectures for liver and tumor segmentation reflects my ongoing dedication to impactful AI in healthcare.
+
+## Beyond Academics
+
+In addition to my technical work, I am a sports enthusiast, having represented my college in university games for badminton and table tennis. I also enjoy contributing to academic communities as a class representative and have actively participated in international spelling bees and scholastic tournaments.
+
+Feel free to explore my website to learn more about my projects, publications, and the exciting AI research I am engaged in. If you share similar interests or would like to collaborate, don’t hesitate to reach out!
+
+---
+
+### Contact Me
+
+- **Email**: sonavane.arnav2@gmail.com
+- **LinkedIn**: [Arnav Sonavane](https://linkedin.com/in/arnavsonavane)
+- **GitHub**: [Arnav's GitHub](https://github.com/ft-arnxvvv)
+- **Google Scholar**: [Research Publications](https://scholar.google.com/citations?user=5u4nSbMAAAAJ)
+
+Let's connect and drive innovation in AI and technology together!
