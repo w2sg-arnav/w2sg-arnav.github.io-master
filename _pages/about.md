@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-You can download my full resume [here](assets/files/resumeee.pdf).
+You can download my full resume [here](files/resumeee.pdf).
 
 Welcome to my website! I’m Arnav, a passionate computer science student at the University of Mumbai, currently on an exciting journey in artificial intelligence and machine learning. Expected to graduate in 2027, I have been actively involved in impactful research, industry collaborations, and continuous learning to drive innovation in AI and technology.
 
@@ -89,7 +89,7 @@ These awards reflect my dedication to continuous learning and my competitive edg
 ### HepaScope: Liver and Tumor Segmentation
 *HepaScope: Densely Connected UNet for CT Volume-Based Liver and Tumor Segmentation*  
 (Accepted at the 13th International Conference on Bioinformatics and Computational Biology)
-- [acceptance pdf](assets/files/ICBCB 2025 Notification of Acceptance-YN0045.pdf)
+- [acceptance pdf](files/ICBCB 2025 Notification of Acceptance-YN0045.pdf)
 
 ## Beyond Academics
 
