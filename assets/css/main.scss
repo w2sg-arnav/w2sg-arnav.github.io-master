@@ -1,41 +1,53 @@
----
----
-
 /*
- *    Minimal Mistakes Jekyll Theme
+ * Minimal Mistakes Jekyll Theme
  *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+ * - Michael Rose
+ * - mademistakes.com
+ * - https://twitter.com/mmistakes
+ */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+// Importing Breakpoint for media query mixins
+@import "vendor/breakpoint/breakpoint"; 
+
+// Importing Variables and Mixins
 @import "variables";
 @import "mixins";
+
+// Importing Grid System
 @import "vendor/susy/susy";
 
-@import "reset";
-@import "base";
+// Base Styles
+@import "reset";         // CSS Reset
+@import "base";          // Base styles
 
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
+// Utility Styles
+@import "utilities";     // Utility classes
+@import "animations";     // Animation styles
+@import "tables";        // Table styles
+@import "buttons";       // Button styles
+@import "notices";       // Notice styles
 
-@import "forms";
+// Layout Components
+@import "masthead";      // Masthead styles
+@import "navigation";     // Navigation styles
+@import "footer";        // Footer styles
 
-@import "page";
-@import "archive";
-@import "sidebar";
+// Syntax Highlighting
+@import "syntax";        // Syntax highlighting styles
 
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print";
+// Form Styles
+@import "forms";         // Form styles
+
+// Page Layouts
+@import "page";          // Page styles
+@import "archive";       // Archive styles
+@import "sidebar";       // Sidebar styles
+
+// Vendor Libraries
+@import "vendor/font-awesome/fontawesome";   // Font Awesome core
+@import "vendor/font-awesome/solid";         // Solid icons
+@import "vendor/font-awesome/brands";        // Brand icons
+@import "vendor/magnific-popup/magnific-popup"; // Magnific Popup library
+
+// Print Styles
+@import "print";        // Print styles

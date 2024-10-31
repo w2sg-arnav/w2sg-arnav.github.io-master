@@ -1,17 +1,49 @@
 .container {
-    width:100%;
-    border:1px solid #d3d3d3;
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden; /* Ensures rounded corners are applied */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow on hover */
 }
+
+.container:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
 .container div {
-    width:100%;
+    width: 100%;
 }
+
 .container .header {
-    background-color:#d3d3d3;
-    padding: 2px;
+    background-color: #f0f0f0; /* Lighter background for the header */
+    color: #333; /* Dark text for better readability */
+    padding: 10px; /* Increased padding for better spacing */
     cursor: pointer;
     font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth background transition */
 }
+
+.container .header:hover {
+    background-color: #e0e0e0; /* Change background on hover */
+}
+
 .container .content {
     display: none;
-    padding : 5px;
+    padding: 10px; /* Increased padding for content */
+    background-color: #ffffff; /* White background for content area */
+    border-top: 1px solid #d3d3d3; /* Separate content from header */
+}
+
+.container .content.show {
+    display: block; /* Show content when toggled */
+}
+
+.container .toggle-icon {
+    float: right; /* Align icon to the right */
+    transition: transform 0.3s ease; /* Smooth rotation transition */
+}
+
+.container .header:hover .toggle-icon {
+    transform: rotate(90deg); /* Rotate icon on hover */
 }

@@ -1,0 +1,81 @@
+.container {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #ffffff; /* White background for clarity */
+    overflow: hidden; /* Ensures children are clipped */
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.container div {
+    width: 100%;
+}
+
+.container .header {
+    background-color: #4a90e2; /* Vibrant blue background */
+    color: white; /* White text for contrast */
+    padding: 12px; /* More padding for better touch area */
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center; /* Center text */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.container .header:hover {
+    background-color: #357ab8; /* Darker blue on hover */
+}
+
+.container .content {
+    display: none; /* Hidden by default */
+    padding: 15px; /* More padding for content */
+    background-color: #f9f9f9; /* Light gray background */
+    border-top: 1px solid #d3d3d3; /* Separator line */
+    transition: max-height 0.3s ease; /* Smooth height transition */
+}
+
+.container .content.show {
+    display: block; /* Show when active */
+}
+
+#site-nav {
+    background-color: #333; /* Dark background for navigation */
+    color: #fff; /* White text for navigation */
+    border-radius: 5px; /* Rounded corners for nav */
+    padding: 10px; /* Padding around nav items */
+}
+
+#site-nav button {
+    background-color: #4CAF50; /* Green background for button */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    padding: 10px 15px; /* Padding around button */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Align buttons */
+    margin: 4px 2px; /* Space between buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+#site-nav button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.visible-links, .hidden-links {
+    list-style-type: none; /* Remove bullets from list */
+    padding: 0; /* Remove default padding */
+}
+
+.visible-links li, .hidden-links li {
+    padding: 8px; /* Padding for list items */
+}
+
+.visible-links li:hover, .hidden-links li:hover {
+    background-color: #ddd; /* Light gray on hover */
+}

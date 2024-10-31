@@ -2,6 +2,20 @@
    jQuery plugin settings and other scripts
    ========================================================================== */
 
+   // Toggle content visibility with animation
+$('.header').on('click', function() {
+  var $content = $(this).next('.content');
+
+  // Toggle content visibility and animate height
+  $content.slideToggle(300, function() {
+      // Optional: Add a class to indicate open/closed state
+      $content.toggleClass('show', $content.is(':visible'));
+  });
+
+  // Close other content areas if desired
+  $('.content').not($content).slideUp(300).removeClass('show');
+});
+
 $(document).ready(function(){
   // Sticky footer
   var bumpIt = function() {
