@@ -21,7 +21,7 @@ repository               : "w2sg-arnav/w2sg-arnav.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "arnav.png"
   name             : "aka smokiee"
   pronouns         : # example: "she/her"  
   bio              : "Research Intern @ NIH (US) @ Harvard / @ IIT BBS | ML @ JuliaHealth | Prev. Research Intern @ UCLA | Building @ DreamSkrin"
